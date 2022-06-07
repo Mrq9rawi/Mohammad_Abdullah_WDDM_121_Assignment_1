@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="css/all.min.css" />
+		<link rel="stylesheet" href="css/main.css" />
+		<title>WDDM-121 Assignment 1</title>
+	</head>
+	<body>
+		<main id="main" class="main">
+			<div class="section-background bg-gradient-to-b from-blue-100 to-white overflow-x-hidden">
+				<section
+					id="landing"
+					class="landing flex flex-col lg:flex-row items-center max-w-[1080px] mx-auto px-2 pt-4 lg:pt-8 mb-8"
+				>
+					<div class="landing-img flex-shrink-0 -mb-6 lg:mb-0 lg:-mt-8 lg:-ml-20 lg:mr-12">
+						<img
+							src="img/hero.png"
+							class="max-h-[260px] lg:max-h-[600px] ml-[-12px] lg:ml-[-20px]"
+							alt=""
+						/>
+					</div>
+					<div
+						class="landing-content flex-auto flex flex-col justify-center items-center lg:items-start pt-12"
+					>
+						<h1
+							class="text-4xl lg:text-6xl font-extrabold text-center lg:text-left text-gray-900 max-w-3xl"
+						>
+							Bump is the easy way to
+							<span
+								class="inline text-transparent bg-clip-text bg-gradient-to-r from-orange-500 to-red-500"
+								>release</span
+							>
+							&
+							<span
+								class="inline text-transparent bg-clip-text bg-gradient-to-r from-red-500 to-pink-500"
+								>update</span
+							>
+							indie Mac apps.
+						</h1>
+						<p class="text-xl font-medium text-center lg:text-left text-gray-90 mt-8 max-w-lg">
+							An automated pipeline designed to make distributing apps with
+							<a
+								href="https://sparkle-project.org"
+								target="_blank"
+								class="text-blue-500 hover:text-blue-600"
+							>
+								Sparkle
+							</a>
+							easier to maintain and collaborate on.
+						</p>
+						<div
+							class="landing-links flex items-center mt-8 space-x-0 sm:space-x-4 space-y-4 sm:space-y-0"
+						>
+							<a
+								href="https://github.com/replay-software/bump"
+								target="_blank"
+								class="view-repo-link flex gap-2 items-center hover:translate-y-[-2px] hover:shadow-lg shadow text-white text-lg font-medium px-5 py-3 rounded-lg"
+							>
+								<i class="fa-brands fa-github"></i>
+								View the repo
+							</a>
+							<div class="create-repo-link py-3 px-4 border rounded-lg hidden sm:inline-flex">
+								<span class="text-gray-600 lg:inline hidden mr-1"> Used Bump before? </span>
+								<a
+									href="https://github.com/replay-software/bump/generate"
+									class="text-blue-500 hover:text-blue-600 font-medium"
+									>Create your repo now</a
+								>
+							</div>
+						</div>
+					</div>
+				</section>
+			</div>
+			<section id="services" class="services">
+				<div class="services-container flex flex-wrap max-w-[1080px] mx-auto px-2">
+					<div
+						class="service lg:mx-4 lg:basis-2/4.5 mb-5 lg:mb-8 flex gap-4 lg:flex-col lg:justify-center lg:items-center lg:text-center lg:p-6 lg:bg-blue-50 lg:bg-opacity-60 rounded-lg lg:text-lg leading-relaxed"
+					>
+						<div
+							class="service-img h-[58px] min-w-[58px] flex justify-center items-center text-white rounded-lg lg:rounded-2xl shadow-lg"
+							style="background-image: url(img/blue.png); background-size: cover"
+						>
+							<i class="fa-solid fa-bars-staggered fa-2x"> </i>
+						</div>
+						<div class="service-content flex flex-col">
+							<h2 class="service-heading font-semibold mb-1">Seamless workflow</h2>
+							<p
+								class="service-text text-midnight text-tiny leading-relaxed text-opacity-70 dark:text-gray-400 lg:px-4 lg:max-w-[424px]"
+							>
+								Create a changelog, upload your new App archive and push it live without leaving the
+								GitHub UI. It's perfect for teams building and releasing together.
+							</p>
+						</div>
+					</div>
+					<div
+						class="service lg:mx-4 lg:basis-2/4.5 mb-5 lg:mb-8 flex gap-4 lg:flex-col lg:justify-center lg:items-center lg:text-center lg:p-6 lg:bg-blue-50 lg:bg-opacity-60 rounded-lg lg:text-lg leading-relaxed"
+					>
+						<div
+							class="service-img h-[58px] min-w-[58px] flex justify-center items-center text-white rounded-lg lg:rounded-2xl shadow-lg"
+							style="background-image: url(img/pink.png); background-size: cover"
+						>
+							<i class="fa-solid fa-medal fa-2x"></i>
+						</div>
+						<div class="service-content flex flex-col">
+							<h2 class="service-heading font-semibold mb-1">Automatic certificate management</h2>
+							<p
+								class="service-text text-midnight text-tiny leading-relaxed text-opacity-70 dark:text-gray-400 lg:px-4 lg:max-w-[424px]"
+							>
+								Supply Bump with a Sparkle private key and it will take care of creating signatures
+								for updates. Your private key never leaves GitHub’s encrypted secrets store.
+							</p>
+						</div>
+					</div>
+					<div
+						class="service lg:mx-4 lg:basis-2/4.5 mb-5 lg:mb-8 flex gap-4 lg:flex-col lg:justify-center lg:items-center lg:text-center lg:p-6 lg:bg-blue-50 lg:bg-opacity-60 rounded-lg lg:text-lg leading-relaxed"
+					>
+						<div
+							class="service-img h-[58px] min-w-[58px] flex justify-center items-center text-white rounded-lg lg:rounded-2xl shadow-lg"
+							style="background-image: url(img/yellow.png); background-size: cover"
+						>
+							<i class="fa-solid fa-hand-sparkles fa-2x"></i>
+						</div>
+						<div class="service-content flex flex-col">
+							<h2 class="service-heading font-semibold mb-1">Built for Sparkle</h2>
+							<p
+								class="service-text text-midnight text-tiny leading-relaxed text-opacity-70 dark:text-gray-400 lg:px-4 lg:max-w-[424px]"
+							>
+								<a
+									href="https://sparkle-project.org"
+									target="_blank"
+									class="text-blue-500 hover:text-blue-600"
+									>Sparkle</a
+								>
+								has become the standard release mechanism for indie Mac developers. Bump has been
+								built from the ground up to be the perfect companion toolchain.
+							</p>
+						</div>
+					</div>
+					<div
+						class="service lg:mx-4 lg:basis-2/4.5 mb-5 lg:mb-8 flex gap-4 lg:flex-col lg:justify-center lg:items-center lg:text-center lg:p-6 lg:bg-blue-50 lg:bg-opacity-60 rounded-lg lg:text-lg leading-relaxed"
+					>
+						<div
+							class="service-img h-[58px] min-w-[58px] flex justify-center items-center text-white rounded-lg lg:rounded-2xl shadow-lg"
+							style="background-image: url(img/green.png); background-size: cover"
+						>
+							<i class="fa-solid fa-terminal fa-2x"></i>
+						</div>
+						<div class="service-content flex flex-col">
+							<h2 class="service-heading font-semibold mb-1">DevOps included</h2>
+							<p
+								class="service-text text-midnight text-tiny leading-relaxed text-opacity-70 dark:text-gray-400 lg:px-4 lg:max-w-[424px]"
+							>
+								Bump uses
+								<a
+									href="https://www.terraform.io"
+									target="_blank"
+									class="text-blue-500 hover:text-blue-600"
+									>Terraform</a
+								>
+								under the hood to take care of provisioning infrastructure. All you need to bring is
+								your own AWS account.
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="services-link w-full max-w-lg mx-auto flex items-center justify-center py-8">
+					<a
+						href="https://medium.com/@almonk/ac8a6e330272"
+						class="flex items-center gap-1 py-3 px-4 border border-blue-100 border-opacity-50 rounded-lg text-blue-500 hover:text-blue-60 hover:bg-blue-50 bg-opacity-60 hover:bg-opacity-60"
+					>
+						<i class="fa-solid fa-circle"></i>
+						<p class="font-medium">Read the Medium post</p>
+						<span class="font-medium hidden sm:inline-flex"> about why we built Bump </span>
+					</a>
+				</div>
+			</section>
+		</main>
+	</body>
+</html>
